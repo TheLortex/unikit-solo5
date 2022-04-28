@@ -1,4 +1,11 @@
 image: solo5
 arches:
-    - amd64
+  - amd64
 network: true
+config:
+  devices:
+    - path: "/dev/kvm"
+      type: c
+      major: 10
+      minor: 232
+      mode: "0600"

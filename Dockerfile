@@ -3,7 +3,7 @@ RUN sudo ln -f /usr/bin/opam-2.1 /usr/bin/opam
 RUN opam init --reinit -ni
 RUN opam install solo5
 
-FROM scratch
+FROM alpine
 ENTRYPOINT []
 CMD []
 WORKDIR /
