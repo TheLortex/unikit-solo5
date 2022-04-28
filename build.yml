@@ -1,3 +1,4 @@
 image: solo5
 arches:
     - amd64
+network: true
